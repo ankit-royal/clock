@@ -1,2 +1,2 @@
 # clock
-analog-digital clock using HTML, CSS and JAVASCRIPT
+analog-digital clock using HTML, CSS and JavaScript
