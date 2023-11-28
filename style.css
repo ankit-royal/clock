@@ -21,6 +21,9 @@ html.dark {
 html.dark {
   background-color: #111;
   color: var(--primary-color);
+  #clock-face {
+    filter: invert(100%);
+  }
 }
 
 body {
@@ -57,8 +60,8 @@ body {
 
 .clock {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 .needle {
@@ -79,7 +82,7 @@ body {
 
 .needle.minute {
   transform: translate(-50%, -100%) rotate(0deg);
-  height: 100px;
+  height: 88px;
   width: 5px;
 }
 
